@@ -124,12 +124,13 @@ p {
 */
 .section-one {
   padding: 120px 0;
+  background-image: url(../images/image-two.jpeg);
   border-bottom: 4px solid var(--active-green-color);
 }
 .title-section-one {
   font-family: var(--title-font);
   margin: 0 auto;
-  color: var(--secondary-green-color);
+  color: var(--active-green-color);
   text-align: center;
   font-size: 45px;
   font-style: normal;
@@ -143,7 +144,7 @@ p {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-green-color);
+  color: var(--active-green-color);
   margin-bottom: 72px;
 }
 .section-two-spece {
@@ -151,7 +152,7 @@ p {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-green-color);
+  color: var(--active-green-color);
 }
 .section-two-spece:hover,
 .section-two-spece:focus {
@@ -173,6 +174,7 @@ p {
 .section-two {
   padding: 120px 0;
   background-color: var(--active-green-color);
+  background-position: 90% 10%;
 }
 .title-section-two {
   font-family: var(--title-font);
