@@ -1,19 +1,22 @@
 body {
   font-family: var(--primary-font);
   color: var(--secondary-accent-color);
-  background-color: var(--primary-white-color);
+  background-color: var(--third-brown-color);
 }
 :root {
   --primary-font: "Fira Sans Extra Condensed", sans-serif;
+  --title-font: "Gluten", sans-serif;
   --primary-black-color: #0f0f0f;
   --primary-white-color: #ffffff;
-  --secondary-white-color: #f4f4fd;
-  --third-white-color: #e7e9fc;
+  --secondary-white-color: #f0f8ff;
+  --third-white-color: #abce80;
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #434455;
   --active-link-color: #404bbf;
   --active-green-color: #79aa6b;
   --secondary-green-color: #1f4f16;
+  --third-green-color: #66ff4d;
+  --third-brown-color: #8f4500;
 }
 img {
   display: block;
@@ -49,7 +52,7 @@ p {
   border-bottom: 4px solid var(--active-green-color);
 }
 .container {
-  max-width: 1920px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -65,12 +68,11 @@ p {
   color: var(--primary-black-color);
 }
 .logo-main {
-  align-items: center;
+  margin-right: 400px;
 }
 .hero-list-navigation {
   display: flex;
   gap: 40px;
-  margin-left: 700px;
 }
 .menu-main {
   font-weight: 700;
@@ -122,23 +124,65 @@ p {
 */
 .section-one {
   padding: 120px 0;
+  border-bottom: 4px solid var(--active-green-color);
 }
 .title-section-one {
+  font-family: var(--title-font);
   margin: 0 auto;
   color: var(--secondary-green-color);
   text-align: center;
-  font-size: 56px;
+  font-size: 45px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  margin-bottom: 7px;
+}
+.text-section-one {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-green-color);
   margin-bottom: 72px;
+}
+.section-two-spece {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-green-color);
+}
+.section-two-spece:hover,
+.section-two-spece:focus {
+  color: var(--third-green-color);
 }
 .hero-list-section-three {
   display: flex;
-  gap: 50px;
+  gap: 24px;
   justify-content: center;
 }
 .hero-line-section-three {
   box-shadow: 5px 5px 5px 5px rgba(20, 20, 20, 0.4);
+}
+/*
+|==========================================================================================
+| Section-two                             Section-two                         Section-two
+|==========================================================================================
+*/
+.section-two {
+  padding: 120px 0;
+  background-color: var(--active-green-color);
+}
+.title-section-two {
+  font-family: var(--title-font);
+  margin: 0 auto;
+  color: var(--secondary-green-color);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 7px;
 }
