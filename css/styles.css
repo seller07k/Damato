@@ -16,7 +16,7 @@ body {
   --active-green-color: #79aa6b;
   --secondary-green-color: #1f4f16;
   --third-green-color: #66ff4d;
-  --third-brown-color: #8f4500;
+  --third-brown-color: #f2dfd3;
 }
 img {
   display: block;
@@ -124,7 +124,6 @@ p {
 */
 .section-one {
   padding: 120px 0;
-  background-image: url(../images/image-two.jpeg);
   border-bottom: 4px solid var(--active-green-color);
 }
 .title-section-one {
@@ -173,8 +172,6 @@ p {
 */
 .section-two {
   padding: 120px 0;
-  background-color: var(--active-green-color);
-  background-position: 90% 10%;
 }
 .title-section-two {
   font-family: var(--title-font);
