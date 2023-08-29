@@ -129,7 +129,7 @@ p {
 .title-section-one {
   font-family: var(--title-font);
   margin: 0 auto;
-  color: var(--active-green-color);
+  color: var(--secondary-green-color);
   text-align: center;
   font-size: 45px;
   font-style: normal;
@@ -143,7 +143,7 @@ p {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--active-green-color);
+  color: var(--secondary-green-color);
   margin-bottom: 72px;
 }
 .section-two-spece {
@@ -151,7 +151,7 @@ p {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--active-green-color);
+  color: var(--secondary-green-color);
 }
 .section-two-spece:hover,
 .section-two-spece:focus {
@@ -165,13 +165,35 @@ p {
 .hero-line-section-three {
   box-shadow: 5px 5px 5px 5px rgba(20, 20, 20, 0.4);
 }
+.midle-title-section-one {
+  font-family: var(--title-font);
+  margin: 0 auto;
+  color: var(--secondary-green-color);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 72px;
+}
+.midle-text-section-one {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-green-color);
+  margin-top: 20px;
+}
 /*
 |==========================================================================================
 | Section-two                             Section-two                         Section-two
 |==========================================================================================
 */
 .section-two {
-  padding: 120px 0;
+  height: 120px;
+  background-image: url(../images/);
+  background-position: 75% 25%;
 }
 .title-section-two {
   font-family: var(--title-font);
