@@ -157,15 +157,19 @@ p {
 }
 .section-two-spece:hover,
 .section-two-spece:focus {
-  color: var(--third-green-color);
+  color: var(--third-white-color);
 }
 .hero-list-section-one {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   justify-content: center;
+}
+.image-section-one {
+  border-radius: 50px;
 }
 .hero-line-section-one {
   box-shadow: 5px 5px 5px 5px rgba(20, 20, 20, 0.4);
+  border-radius: 50px;
 }
 .midle-title-section-one {
   font-family: var(--title-font);
@@ -202,7 +206,7 @@ p {
     url(../images/image-eight.jpg);
   background-position: center;
   border-radius: 40px;
-  margin: 40px 35px;
+  margin: 0 auto;
 }
 .title-section-two {
   font-family: var(--title-font);
@@ -243,27 +247,39 @@ p {
   display: flex;
   align-items: center;
 }
-.button-section-two-silpo {
-  background-color: var(--fourth-brown-color);
+.button-section-two {
+  background-color: var(--fourth-green-color);
   font-family: var(--primary-font);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-white-color);
+  color: var(--secondary-green-color);
   cursor: pointer;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
-  min-width: 169px;
-  height: 56px;
+  min-width: 250px;
+  height: 72px;
   border: none;
   border-radius: 40px;
   text-align: center;
+  text-decoration: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
 }
-.button-section-two-silpo:hover,
-.button-section-two-silpo:focus {
-  background-color: var(--fives-brown-color);
+.button-section-two:hover,
+.button-section-two:focus {
+  background-color: var(--third-brown-color);
+}
+.seti-market {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+  gap: 172px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 80px;
+  height: 100px;
 }
